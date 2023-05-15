@@ -1,0 +1,14 @@
+# bvrc_template-js:
+#   filter: rjsmin
+#   output: ckanext-bvrc_template/%(version)s-bvrc_template.js
+#   contents:
+#     - js/bvrc_template.js
+#   extra:
+#     preload:
+#       - base/main
+
+# bvrc_template-css:
+#   filter: cssrewrite
+#   output: ckanext-bvrc_template/%(version)s-bvrc_template.css
+#   contents:
+#     - css/bvrc_template.css
